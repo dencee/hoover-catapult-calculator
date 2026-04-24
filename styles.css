@@ -37,7 +37,19 @@ fieldset {
     background-color: #f9f9f9;
 }
 
+.output-area h2 {
+    margin-top: 0;
+}
+
 .result-row {
     margin-bottom: 0.5rem;
     font-size: 1.1rem;
+}
+
+.highlight {
+    background-color: #ffe066;
+    padding: 0 4px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #333;
 }
