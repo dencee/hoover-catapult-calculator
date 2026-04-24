@@ -63,8 +63,8 @@ function calculateQuadratic() {
     // 4. Update the DOM
     document.getElementById("out-x-intercepts").textContent = `(${formatNumber(minXInt)}, 0) and (${formatNumber(maxXInt)}, 0)`;
     document.getElementById("out-vertex").textContent = `(${formatNumber(h)}, ${formatNumber(k)})`;
-    document.getElementById("out-standard").textContent = standard;
     document.getElementById("out-factored").textContent = factored;
+    document.getElementById("out-standard").textContent = standard;
     document.getElementById("out-vertex-form").textContent = vertexForm;
 
     // Show the output container
