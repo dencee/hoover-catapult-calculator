@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="quad-calculator.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Hoover Catapult Calculator</title>
+</head>
+<body>
+    <div class="row">
+        <fieldset class="input-group">
+            <legend>Y-Intercept</legend>
+            <label for="y-intercept-y">Y:</label>
+            <input type="number" id="y-intercept-y" name="y-intercept-y" step="any" placeholder="y-coordinate">
+        </fieldset>
+
+        <fieldset class="input-group">
+            <legend>Vertex</legend>
+            <label for="vertex-x">X:</label>
+            <input type="number" id="vertex-x" name="vertex-x" step="any" placeholder="x-coordinate">
+        </fieldset>
+
+        <fieldset class="input-group">
+            <legend>Larger X-Intercept</legend>
+            <label for="x-intercept-x">X:</label>
+            <input type="number" id="x-intercept-x" name="x-intercept-x" step="any" placeholder="x-coordinate">
+        </fieldset>
+
+        <button type="button" id="calculate-btn" class="calc-btn">Calculate</button>
+    </div>
+
+    <div id="output-area" class="output-area" style="display: none;">
+        <h2>Results</h2>
+        <div class="result-row"><strong>Both X-Intercepts:</strong> <span id="out-x-intercepts"></span></div>
+        <div class="result-row"><strong>Vertex:</strong> <span id="out-vertex"></span></div>
+        <div class="result-row"><strong>Standard Form:</strong> <span id="out-standard"></span></div>
+        <div class="result-row"><strong>Factored Form:</strong> <span id="out-factored"></span></div>
+        <div class="result-row"><strong>Vertex Form:</strong> <span id="out-vertex-form"></span></div>
+    </div>
+</body>
+</html>
