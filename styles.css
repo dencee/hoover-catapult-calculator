@@ -53,3 +53,9 @@ fieldset {
     font-weight: bold;
     color: #333;
 }
+
+input[type="number"] {
+    width: 16ch;
+    padding: 4px;
+    box-sizing: content-box;
+}
